@@ -8,7 +8,7 @@
 	if (!box2dscript) {
 		box2dscript = document.createElement("script");
 		box2dscript.type="text/javascript";
-		box2dscript.src="Box2d.min.js";
+		box2dscript.src="http://griffpatch.github.io/Box2D.js-Scratch2-Extension/Box2d.min.js";
 		//box2dscript.src=document.extURLs.box2d;
 		document.body.appendChild(box2dscript);
 	}
